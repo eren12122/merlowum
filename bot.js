@@ -14,7 +14,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-  client.user.setGame(prefix + "yardım | Güncellemelerden Bot Bazen Çevirim Dışı Ola Bilir! | ClawBot.tk") 
+  client.user.setGame(prefix + "yardım | kaptan merlow") 
   console.log("Bağlandım!")   
 });
 
@@ -99,11 +99,7 @@ client.unload = command => {
   });
 };
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa', 'Sa', 'SA', 'sA') {
-    msg.channel.send('Aleyküm Selam,  Hoş Geldin');
-  }
-});
+
 
 client.elevation = message => {
   if(!message.guild) {
